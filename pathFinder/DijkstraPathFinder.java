@@ -3,6 +3,9 @@ import map.Coordinate;
 import map.PathMap;
 import java.util.*;
 
+/**
+ * Core implementation 
+ */
 public class DijkstraPathFinder implements PathFinder
 {
     // TODO: You might need to implement some attributes
@@ -257,7 +260,7 @@ public class DijkstraPathFinder implements PathFinder
             this.fromNode = fromNode;
             this.toNode = toNode;
             this.weight = weight;
-            
+
         }
 
         public Node getFromNode() {
